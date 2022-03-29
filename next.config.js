@@ -14,7 +14,7 @@ const nextConfig = {
 
 module.exports = nextConfig;
 envConfig = {env:{
-    apiKey:"AIzaSyCXYmkv",
+    apiKey:"AIzaSyCXYmkv_zOQfGD4xmnLbfdng08P8_84zAY",
     authDomain:"",
     projectId:"",
     storageBucket:"",
