@@ -313,6 +313,11 @@ const SignIn = () => {
         setIsGuestLoading(false);
       });
   }; 
+  
+  const signInWithGoogle = () => {
+  
+  }
+ 
   return (
     <>
       <Head>
