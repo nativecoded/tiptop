@@ -14,6 +14,12 @@ const nextConfig = {
 
 module.exports = nextConfig;
 envConfig = {env:{
-},
+    apiKey:
+    authDomain:
+    projectId:
+    storageBucket:
+  
+  
+  },
 }
 
