@@ -19,7 +19,7 @@ envConfig = {env:{
     projectId:"jydago",
     storageBucket:"jydago.appspot.com",
     messagingSenderId:"749072108763",
-    appId:":",
+    appId:"1:749072108763:web:73cb8a5fe8f09f414150fe",
     measurementId:"G-YZES48YEM7",
   },
 }
