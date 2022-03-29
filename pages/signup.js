@@ -10,9 +10,7 @@ import { useSelector } from 'react-redux';
 import { LogoIcon } from '../assets/icons';
 import { validateEmail, validatePassword } from '../utils/formValidation';
 import { auth } from '../services/firebase-config';
-import { db } from '../services/firebase-config';
-
-import {getAuth, signUoWethPopup, GoogleAuthProvider} from 'firebase/auth';
+import { db } from ´../services.firebase-config´;
 
 const MainNav = styled.div`
   font-size: 14px;
@@ -273,11 +271,7 @@ const SignUp = () => {
         });
     }
   };
-  signUpWithDoogle = () => {
-    const provider = new GoogleAuthProvider();
-    const auth = getAuth();
-    signUpWithPopup(auth, provider).then((result) => )
-  }
+  
   return (
     <>
       <Head>
