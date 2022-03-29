@@ -10,6 +10,7 @@ import { LogoIcon } from '../assets/icons';
 import { validateEmail, validatePassword } from '../utils/formValidation';
 import { auth } from '../services/firebase-config';
 
+import (GoogleAuthProvider} from 'firebase/auth';
 const MainNav = styled.div`
   font-size: 14px;
   background-color: #f4f4f4;
@@ -311,8 +312,7 @@ const SignIn = () => {
       .finally(() => {
         setIsGuestLoading(false);
       });
-  };
-
+  }; 
   return (
     <>
       <Head>
