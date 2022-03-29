@@ -13,6 +13,7 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
 envConfig = {env:{
     apiKey:"AIzaSyCXYmkv_zOQfGD4xmnLbfdng08P8_84zAY",
     authDomain:"jydago.firebaseapp.com",
@@ -23,4 +24,6 @@ envConfig = {env:{
     measurementId:"G-YZES48YEM7",
   },
 }
+
+module.exports = envConfig;
 
