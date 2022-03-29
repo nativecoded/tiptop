@@ -12,6 +12,8 @@ import { validateEmail, validatePassword } from '../utils/formValidation';
 import { auth } from '../services/firebase-config';
 import { db } from '../services/firebase-config';
 
+import {getAuth, signUoWethPopup, GoogleAuthProvider} from 'firebase/auth';
+
 const MainNav = styled.div`
   font-size: 14px;
   background-color: #f4f4f4;
