@@ -18,9 +18,9 @@ envConfig = {env:{
     authDomain:"jydago.firebaseapp.com",
     projectId:"jydago",
     storageBucket:"jydago.appspot.com",
-    messagingSenderId:"",
-    appId:"",
-    measurementId:"",
+    messagingSenderId:"749072108763",
+    appId:":",
+    measurementId:"G-YZES48YEM7",
   },
 }
 
