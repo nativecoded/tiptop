@@ -273,7 +273,11 @@ const SignUp = () => {
         });
     }
   };
-
+  signUpWithDoogle = () => {
+    const provider = new GoogleAuthProvider();
+    const auth = getAuth();
+    signUpWithPopup(auth, provider).then((result) => )
+  }
   return (
     <>
       <Head>
