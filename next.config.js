@@ -14,12 +14,13 @@ const nextConfig = {
 
 module.exports = nextConfig;
 envConfig = {env:{
-    apiKey:
-    authDomain:
-    projectId:
-    storageBucket:
-  
-  
+    apiKey:"AIzaSyCXYmkv",
+    authDomain:"",
+    projectId:"",
+    storageBucket:"",
+    messagingSenderId:"",
+    appId:"",
+    measurementId:"",
   },
 }
 
